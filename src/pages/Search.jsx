@@ -22,7 +22,7 @@ export function Search() {
   };
 
   useEffect(() => {
-    const searchWithQueryURL = searchURL + '?' + apiKey + '&query=' + query;
+    const searchWithQueryURL = `${searchURL}?${apiKey}&query=${query}`;
     getSearchMovies(searchWithQueryURL);
   }, [query]);
 
