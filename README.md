@@ -1,8 +1,8 @@
 # The Movie Database (TMDB)
 
-## 🇧🇷 Biblioteca de vídeos .
+🇧🇷 Biblioteca de vídeos.
 
- #### 🇺🇸 Movie Search Website.
+🇺🇸 Movie Search Website.
 
 #
 <div style='display: flex; gap: 0.5rem; margin-top: 2rem'><img width='20px' src='./src/assets/react.svg' /> React
