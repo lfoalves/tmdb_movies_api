@@ -1,0 +1,25 @@
+.backTopTop {
+  z-index: 1;
+  background: none;
+  background-color: #F7D354;
+  border: 2px solid #F7D345;
+  
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+
+  display: grid;
+  place-items: center;
+
+  color: #000;
+  font-weight: bold;
+}
+
+.backTopTop:hover {
+  background-color: transparent;
+  color: #f7d354;
+}

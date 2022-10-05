@@ -1,0 +1,24 @@
+.movie-card {
+  width: 30%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #111;
+  padding: 1rem;
+}
+.movie-card a {
+  background-color: #F7D354;
+  border: 2px solid #F7D354;
+  border-radius: 4px;
+  color: #000;
+  padding: 1rem 0.5rem;
+  align-items: center;
+  transition: 0.4s;
+  text-align: center;
+  font-weight: bold;
+}
+.movie-card a:hover {
+  background-color: transparent;
+  color: #F7d354;
+}
