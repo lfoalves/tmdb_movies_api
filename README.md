@@ -4,8 +4,8 @@
 
 🇺🇸 Movie Search Website.
 
-#
-<div style='display: flex; gap: 0.5rem; margin-top: 2rem'><img width='20px' src='./src/assets/react.svg' /> React
+ ### Technologies:
+<div style='display: flex; gap: 0.5rem; margin-top: 0.5rem'><img width='20px' src='./src/assets/react.svg' /> React
 </div>
 
 <div style='display: flex; gap: 0.5rem; margin-top: 0.5rem; margin-bottom: 2em'><img width='70px' src='./src/assets/blue_short.svg' /> TMDB
