@@ -17,10 +17,7 @@ export function Search() {
   function getSearchMovies(url) {
     fetch(url)
     .then(response => response.json())
-    .then(data => {
-      console.log(data.results)
-      setMovies(data.results)
-    })
+    .then(data =>   setMovies(data.results))
     .catch((err) => console.error(err))
   };
 
@@ -35,7 +32,7 @@ export function Search() {
       <div 
         className="movies-container"
       >
-        {movies.length === 0 && <Loading />}
+        {movies.length <= 0 && <Loading />}
         {
           movies.length > 0 &&
           movies.map((movie) => <MovieCard key={movie.id} movie={movie} />)
