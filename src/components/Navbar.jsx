@@ -12,10 +12,10 @@ export function Navbar() {
 
     if (search.length <= 0) {
       return alert('Por favor preencha o campo de pesquisa')
-    };
+    }
     
-    navigate(`/search?q=${search}`);
-    setSearch([]);
+    navigate(`/search?q=${search}`)
+    setSearch([])
   }
 
   return(
