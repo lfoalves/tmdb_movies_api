@@ -17,12 +17,15 @@ export function Search() {
   function getSearchMovies(url) {
     fetch(url)
     .then(response => response.json())
-    .then(data =>   setMovies(data.results))
+    .then(data => {
+      setMovies(data.results)
+      console.log(data.results)
+    })
     .catch((err) => console.error(err))
   };
 
   useEffect(() => {
-    const searchWithQueryURL = `${searchURL}?${apiKey}&query=${query}`;
+    const searchWithQueryURL = `${import.meta.env.VITE_SEARCH}?${import.meta.env.VITE_API_KEY}&query=${query}`;
     getSearchMovies(searchWithQueryURL);
   }, [query]);
 
